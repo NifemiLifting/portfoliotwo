@@ -1,0 +1,94 @@
+.ovo__contact {
+    text-align: center;
+  }
+  
+  .ovo__contact-text {
+    padding-top: 7rem;
+    text-align: center;
+  }
+  .ovo__contact-text h1{
+    font-weight: 500;
+    font-size: 60px;
+  }
+  .ovo__contact-text h2{
+    padding-top: 2rem;
+  }
+  .ovo__contact-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+  }
+  
+  .ovo__contact-btn {
+    padding: 1rem;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+    width: 200px;
+    margin: 0 1rem; /* Add some horizontal space between buttons */
+    flex-direction: column;
+  }
+  
+  .ovo__contact-btn p {
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 21px;
+    word-spacing: 2px;
+  }
+  .ovo__contact-link p{
+    font-size: 14px;
+  }
+  .footer p{
+    font-size: 10px;
+
+  }
+  .ovo__contact-link {
+    padding: 1rem;
+    
+    text-align: center;
+    cursor: pointer;
+    width: 200px;
+    margin: 0 1rem; /* Add some horizontal space between buttons */
+    flex-direction: column;
+  }
+  .ovo__contact-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    
+  }
+  @media screen and (max-width:490px){
+    .ovo__contact-text {
+      padding-top: 7rem;
+      text-align: center;
+    }
+    .ovo__contact-text h1{
+      font-weight: 500;
+      font-size: 30px;
+    }
+    .ovo__contact-btn {
+      padding: 0.6rem;
+      border: 1px solid black;
+      text-align: center;
+      cursor: pointer;
+      width: 100px;
+      margin: 0 1rem; /* Add some horizontal space between buttons */
+      
+    }
+    .ovo__contact-btn p {
+      box-sizing: border-box;
+      font-size: 12px;
+      line-height: 15px;
+      word-spacing: 2px;
+    }
+    .footer p{
+      font-size: 7px;
+    }
+    
+    .ovo__contact-link p{
+      font-size: 10px;
+    }
+  }

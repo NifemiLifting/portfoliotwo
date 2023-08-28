@@ -1,0 +1,84 @@
+/* experience.css */
+.ovo__exp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+  }
+  
+  .ovo__exp-container_heading h1 {
+    font-size: 70px;
+  }
+  
+  
+  .experience-list {
+    margin-top: 20px;
+  }
+  
+  .experience-item {
+    margin-bottom: 20px;
+  }
+  
+  .item-content {
+    display: grid;
+    grid-template-columns: 30% 70%; /* Adjust column widths as needed */
+    grid-gap: 20px;
+  }
+  .smaller span{
+    font-size: 20px;
+  }
+  .item-content h2 {
+    color: #dccace;
+    font-size: 1.5rem;
+  }
+  .item-content .smaller{
+    font-size: 0.8rem;
+  }
+  .item-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  @media screen and (max-width:650px) {
+    .ovo__exp-container_heading h1 {
+      font-size: 40px;
+    }
+    .item-content h2 {
+      font-size: 1rem;
+    }
+    .item-content .smaller{
+      font-size: 0.7rem;
+    }
+    .item-content p {
+      font-size: 0.8rem;
+      line-height: 1.5;
+    }
+  }
+  @media screen and (max-width:490px) {
+    .ovo__exp-container_heading h1 {
+      font-size: 15px;
+      margin-bottom: 1rem;
+    }
+    .item-content h2 {
+      font-size: 0.5rem;
+    }
+    .item-content .smaller{
+      font-size: 0.3rem;
+    }
+    .item-content p {
+      font-size: 0.4rem;
+      line-height: 1.5;
+    }
+    .ovo__exp-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 0;
+    }
+    .section__padding{
+      padding: 1.6rem;
+    }
+  }
+  /* Add any additional styling as needed */
+  
+
+  

@@ -1,0 +1,79 @@
+.body{
+    margin: 0;
+}
+/* about.css */
+.ovo__about {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    height: 700px;
+}
+
+.ovo__about-content {
+    flex: 0.5;
+    padding: 0 20px;
+    
+}
+
+.ovo__about-content h1 {
+    font-size: 70px;
+
+}
+
+.ovo__about-content h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.ovo__about-content p {
+    margin-top: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.ovo__about-image {
+    flex:1 ;
+    max-width: 35%;
+    /* margin-left: 2rem; */
+    position: relative;
+    padding: 0;
+    height: 100%;
+}
+
+.header-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+@media screen and (max-width:650px) {
+    .ovo__about-content h1 {
+        font-size: 40px;
+    }
+    .ovo__about-content h1 {
+        font-size: 30px;
+    
+    }
+}
+@media screen and (max-width:450px) {
+    .ovo__about-content h1 {
+        font-size: 30px;
+    
+    }
+    .ovo__about {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        height: 650px;
+    }
+    .ovo__about-content {
+        margin: 0;
+        padding: 0 30px;
+        
+    }
+    .ovo__about-content p {
+        margin-top: 20px;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+}
