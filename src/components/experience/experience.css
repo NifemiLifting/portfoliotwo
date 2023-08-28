@@ -55,17 +55,17 @@
   }
   @media screen and (max-width:490px) {
     .ovo__exp-container_heading h1 {
-      font-size: 15px;
+      font-size: 20px;
       margin-bottom: 1rem;
     }
     .item-content h2 {
-      font-size: 0.5rem;
+      font-size: 0.7rem;
     }
     .item-content .smaller{
-      font-size: 0.3rem;
+      font-size: 0.5rem;
     }
     .item-content p {
-      font-size: 0.4rem;
+      font-size: 0.6rem;
       line-height: 1.5;
     }
     .ovo__exp-container {

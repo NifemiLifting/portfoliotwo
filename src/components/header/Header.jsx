@@ -11,7 +11,7 @@ const Header = () => {
                
                <p>E.I.T. B.ENG</p>
             </div>
-            <div className='ovo__header-welcome slide-left'>
+            <div className='ovo__header-welcome'>
                 <h2 className='slide-left'>Welcome to my portfolio</h2>
             </div>
         </div>
