@@ -8,8 +8,11 @@
   
   .ovo__exp-container_heading h1 {
     font-size: 70px;
+    color: var;
   }
-  
+  .date span{
+    color: #7f676c;
+  }
   
   .experience-list {
     margin-top: 20px;
