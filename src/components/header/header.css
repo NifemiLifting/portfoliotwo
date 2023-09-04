@@ -55,6 +55,9 @@
         font-weight: 600;
         font-size: 20px;
     }
+    .ovo__header-welcome p{
+        font-size: 12px;
+    }
 }
 @media screen and (max-width:490px) {
     .ovo__header-container{
@@ -94,5 +97,8 @@
         font-weight: 600;
         font-size: 25px;
         margin-left: 5rem;
+    }
+    .ovo__header-welcome p{
+        font-size: 12px;
     }
 }

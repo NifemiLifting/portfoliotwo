@@ -37,7 +37,7 @@
     max-width: 45%;
     margin-left: 2rem;
     position: relative;
-    padding: 3rem 1.8rem;
+    padding: 3rem 1.6rem;
     height: 70%;
     
     /* border: 1px solid black; */
@@ -57,6 +57,19 @@
     .ovo__about-content h1 {
         font-size: 30px;
     
+    }
+    .header-image {
+        width: 180px;
+        height: 68%;
+        display: block;
+    }
+    .ovo__about-image {
+        
+        max-width: 30%;
+      padding: 0;
+        
+       
+        
     }
 }
 @media screen and (max-width:450px) {
