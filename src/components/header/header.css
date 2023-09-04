@@ -23,6 +23,11 @@
     font-weight: 600;
     font-size: 30px;
 }
+.ovo__header-welcome p{
+    text-align: right;
+    padding-right:6rem ;
+    padding-top: 2rem;
+}
 @media screen and (max-width:650px) {
     .ovo__header-container{
         display: block;

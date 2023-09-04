@@ -1,8 +1,80 @@
 .ovo__projects-image img{
-    height: 300px;
+    height: 350px;
     width: 100%;
     /* align-items: center; */
     /* margin-left: 5rem; */
+}
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.ovo__projects h1{
+  text-align: center;
+}
+.slide img {
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.slide {
+  transform: scale(0.2);
+  transition: transform 300ms;
+  opacity: 0.5;
+}
+
+.activeSlide {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.arrow {
+  background-color: #ffffff00;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  padding: 2rem;
+}
+
+.arrow svg {
+  transition: color 300ms;
+}
+
+.arrow svg:hover {
+  color: var(--color--bg);
+}
+
+.next {
+  right: 0%;
+  top: 50%;
+}
+
+.prev {
+  left: 0%;
+  top: 50%;
+}
+
+
+.container {
+  max-width: 124rem;
+  padding: 4rem 1rem;
+  margin: 0 auto;
+}
+
+.heading {
+  padding: 1rem 0;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.swiper_container {
+  height: 52rem;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.swiper-slide {
+  width: 37rem;
+  height: 42rem;
+  position: relative;
 }
 .ovo__projects-grid {
     display: grid;
@@ -37,6 +109,30 @@
       line-height: 30px;
       font-size: 20px;
     }
+
+    .slide {
+      text-align: center;
+     transform: scale(0.2);
+      transition: transform 300ms;
+     opacity: 0;
+    }
+    .activeSlide {
+      transform: scale(1);
+      opacity: 1;
+      
+    }
+    .slide img{
+      text-align: center;
+      padding-left: 0;
+      margin-left: 0;
+      
+    }
+    .ovo__projects-image img{
+      height: 220px;
+      width: 100%;
+    }
+    
+ 
   }
   @media screen and (max-width:490px) {
     .grid-item p{
@@ -52,8 +148,7 @@
       width: 100%;
     }
     .ovo__projects-grid {
-      /* display: grid; */
-      /* grid-template-columns: 1fr 1fr; */
+ 
       gap: 0px;
       margin-top: 10px;
       text-align: center;
@@ -62,12 +157,28 @@
       
     }
     .grid-item {
-      /* display: flex; */
+    
       flex-direction: column;
       padding: 20px;
       border: 1px solid black;
-     /* margin-bottom: 4rem; 
-     margin-left: 1rem;
-     margin-right: 1rem; */
+     
+    
+    }
+    .slide {
+      text-align: center;
+     transform: scale(0.2);
+      transition: transform 300ms;
+     opacity: 0;
+    }
+    .activeSlide {
+      transform: scale(1);
+      opacity: 1;
+      
+    }
+    .slide img{
+      text-align: center;
+      padding-left: 0;
+      margin-left: 0;
+      
     }
   }

@@ -16,7 +16,7 @@
 }
 
 .ovo__about-content h1 {
-    font-size: 70px;
+    font-size: 60px;
 
 }
 
@@ -34,11 +34,15 @@
 
 .ovo__about-image {
     flex:1 ;
-    max-width: 35%;
-    /* margin-left: 2rem; */
+    max-width: 45%;
+    margin-left: 2rem;
     position: relative;
-    padding: 0;
-    height: 100%;
+    padding: 3rem 1.8rem;
+    height: 70%;
+    
+    /* border: 1px solid black; */
+   
+    
 }
 
 .header-image {
@@ -48,7 +52,7 @@
 }
 @media screen and (max-width:650px) {
     .ovo__about-content h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
     .ovo__about-content h1 {
         font-size: 30px;
@@ -57,11 +61,11 @@
 }
 @media screen and (max-width:450px) {
     .ovo__about-content h1 {
-        font-size: 30px;
+        font-size: 27px;
     
     }
     .ovo__about {
-        display: flex;
+        display: block;
         align-items: center;
         padding: 0;
         height: 650px;

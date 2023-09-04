@@ -13,6 +13,7 @@ const Header = () => {
             </div>
             <div className='ovo__header-welcome'>
                 <h2 className='slide-left'>Welcome to my portfolio</h2>
+                <p><a href='https://www.linkedin.com/in/ovo-jatto-e-i-t-/' target='_blank' rel='noopener noreferrer'>My Linkedin</a></p>
             </div>
         </div>
      );

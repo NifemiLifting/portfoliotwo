@@ -10,8 +10,10 @@
     font-size: 70px;
     color: var;
   }
-  .date span{
-    color: #7f676c;
+  .date {
+    color: #161515;
+    
+    font-weight: bolder;
   }
   
   .experience-list {
@@ -40,6 +42,8 @@
   .item-content p {
     font-size: 1rem;
     line-height: 1.5;
+    color:#373739;
+    ;
   }
   @media screen and (max-width:650px) {
     .ovo__exp-container_heading h1 {
