@@ -68,8 +68,8 @@ function Projects(){
 
           </div>
           <div className='grid-item gradient__text'>
-            <h1>PROJECT</h1>
-            <h4>• Electrical Team lead - Tidal Turbine Power Generation Analysis Project</h4>
+            <h1>Electrical Team lead</h1>
+            <h4>Tidal Turbine Power Generation Analysis Project</h4>
             <p>Collaborated with engineering students on Tidal Turbine Power Generation analysis using MAT-LAB/Simulink and ANSYS to design mechanical turbines using Simulink and prepared project reports and meeting minutes.</p>
             <p><br/> <a href='https://onedrive.live.com/edit.aspx?resid=BE13BD5DDD2399DD!2766&ithint=file%2cpptx&authkey=!AMwyJ5V1ncTJQFA'>Link to The Capstone Project</a></p>
           </div>
