@@ -6,12 +6,11 @@ import Slider from "react-slick";
 
 
 import light from '../../images/one.jpg';
-import lightone from '../../images/two.jpeg'
-import lighttwo from '../../images/three.jpg'
-import lightthree from '../../images/four.jpg'
+import lightone from '../../images/extra.jpeg'
+import lighttwo from '../../images/xtra.jpeg'
 import lightfour from '../../images/five.jpg'
 
-const images = [light, lightone, lighttwo, lightthree, lightfour]
+const images = [light, lightone, lighttwo, lightfour]
 
 function Projects(){
   const NextArrow = ({ onClick }) => {
@@ -51,20 +50,6 @@ function Projects(){
           
      
 
-      <div className='ovo__projects'>
-        <h1 className='gradient__text section__padding scale-up-center'>
-          My projects
-        </h1>
-        <div className='ovo__projects-image scale-up-center'>
-           <Slider {...settings}>
-           {images.map((img, idx) => (
-             <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
-            <img src={img} alt={img} />
-          </div>
-            ))}
-      </Slider>
-        </div>
-      </div>
 
 
       <div className='ovo__projects-grid scale-up-center'>
@@ -83,14 +68,29 @@ function Projects(){
 
           </div>
           <div className='grid-item gradient__text'>
-            <h1>PROJECTS</h1>
-            <p>• Electrical Team lead - Tidal Turbine Power Generation Analysis Project</p>
-            <p>• Worked with a multidisciplinary team of Engineering students on Tidal Turbine Power Generation analysis using MAT-LAB/Simulink and ANSYS analysis.</p>
-            <p>• Used Simulink to design the mechanical turbine design based on calculations made</p>
-            <p>• Prepared meeting minutes, presentation materials and project reports for the project</p>
-            <p>• <a href='https://onedrive.live.com/edit.aspx?resid=BE13BD5DDD2399DD!2766&ithint=file%2cpptx&authkey=!AMwyJ5V1ncTJQFA'>Capstone Project</a></p>
+            <h1>PROJECT</h1>
+            <h4>• Electrical Team lead - Tidal Turbine Power Generation Analysis Project</h4>
+            <p>Collaborated with engineering students on Tidal Turbine Power Generation analysis using MAT-LAB/Simulink and ANSYS to design mechanical turbines using Simulink and prepared project reports and meeting minutes.</p>
+            <p><br/> <a href='https://onedrive.live.com/edit.aspx?resid=BE13BD5DDD2399DD!2766&ithint=file%2cpptx&authkey=!AMwyJ5V1ncTJQFA'>Link to The Capstone Project</a></p>
           </div>
       </div>
+
+
+      <div className='ovo__projects'>
+        <h1 className='gradient__text section__padding scale-up-center'>
+          Awards & Extracurriculars
+        </h1>
+        <div className='ovo__projects-image scale-up-center'>
+           <Slider {...settings}>
+           {images.map((img, idx) => (
+             <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
+            <img src={img} alt={img} />
+          </div>
+            ))}
+      </Slider>
+        </div>
+      </div>
+      <br/>
     </div>
   )
 }

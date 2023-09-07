@@ -29,6 +29,10 @@
     grid-template-columns: 30% 70%; /* Adjust column widths as needed */
     grid-gap: 20px;
   }
+  .item-content img{
+    border: solid 1px #dccace;
+    border-radius: 10%;
+  }
   .smaller span{
     font-size: 20px;
   }
