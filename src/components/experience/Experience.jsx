@@ -4,6 +4,7 @@ import exp from '../../images/four.jpg';
 import expone from '../../images/two.jpeg';
 import exptwo from '../../images/hydro.jpeg';
 import expthree from '../../images/three.jpg';
+import exptw from '../../images/xtra.jpeg'
 
 
 const Experience = () => {
@@ -17,7 +18,7 @@ const Experience = () => {
           <div className='item-content'>
             <div className='img'>
             <h2>eSonar Inc.<br/><span className='smaller'>Junior Electronics Engineer</span></h2><br/>
-            <img src={exp} height='180' width='180'/>
+            <img src={exp} height='230' width='230'/>
            
             </div>
             
@@ -28,7 +29,7 @@ const Experience = () => {
           <div className='item-content'>
             <div className="img">
             <h2>Pennecon Industrial<br/><span className='smaller'>Project Controls Coordinator</span></h2><br/>
-              <img src={expone} height='180' width='180'/>
+              <img src={expone} height='230' width='230'/>
               
             
             </div>
@@ -40,7 +41,11 @@ const Experience = () => {
           <div className='item-content'>
           <div className="img">
           <h2>Newfoundland and Labrador Hydro<br/><span className='smaller'>Engineering Student, Protection and Controls - Long Term Asset Planning (LTAP)</span></h2><br/>
-          <img src={exptwo} height='180' width='180'/>
+          <div className="two">
+          <img src={exptwo} height='230' width='230'/>
+          <img src={exptw} height='230' width='230'/>
+          </div>
+          
           
      
           </div>
@@ -52,7 +57,8 @@ const Experience = () => {
           <div className='item-content'>
           <div className="img">
           <h2>Mysa Smart Thermostats<br/><span className='smaller'>Engineering Student, Hardware Team</span></h2><br/>
-          <img src={expthree} height='180' width='180'/>
+          <img src={expthree} height='230' width='230'/>
+
           
           
           </div>

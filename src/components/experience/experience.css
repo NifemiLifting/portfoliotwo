@@ -15,7 +15,14 @@
     
     font-weight: bolder;
   }
-  
+  .two{
+    display: flex;
+    
+    
+  }
+  .two img{
+    margin: 0.2rem;
+  }
   .experience-list {
     margin-top: 20px;
   }
