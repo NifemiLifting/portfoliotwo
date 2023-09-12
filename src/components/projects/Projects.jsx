@@ -7,10 +7,11 @@ import Slider from "react-slick";
 
 import light from '../../images/one.jpg';
 import lightone from '../../images/extra.jpeg'
+import lighty from '../../images/ovo.jpeg';
 
 import lightfour from '../../images/five.jpg'
 
-const images = [light, lightone, lightfour]
+const images = [light, lightone, lightfour, lighty ]
 
 function Projects(){
   const NextArrow = ({ onClick }) => {
